@@ -5,7 +5,7 @@
 Выполните следующие команды:
 1. Склонируйте репозиторий из git: git clone https://github.com/Yushi23/php-laravel-import-data.git
 2. Перейдите в директорию: "cd php-laravel-import-data/";
-3. Если установлен composer, то пропустите этот шаг, иначе установите: "composer install";
+3. Установите зависимости: "composer install";
 4. Создайте файл env: "cp .env.example .env";
 5. Отредактируйте файл для подключения к вашей БД .env file
 6. Накатите миграции: "php artisan migrate";
